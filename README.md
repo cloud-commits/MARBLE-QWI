@@ -8,9 +8,9 @@ To run the simulation:
 python main.py
 ```
 
-- `env.py`**: Simulates user state evolution in changing environmental contexts
-- `agent.py`**: Q-learning agent that learns Whittle indices through experience
-- `baseline.py`**: Computes optimal solutions using full knowledge of dynamics
+- `env.py`: Simulates user state evolution in changing environmental contexts
+- `agent.py`: Q-learning agent that learns Whittle indices through experience
+- `baseline.py`: Computes optimal solutions using full knowledge of dynamics
 - `helper_functions.py`: Utility functions for plotting and data management
 - `simulation.py`: Functions for running experiments and managing multi-seed runs
 
