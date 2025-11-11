@@ -1,12 +1,3 @@
-"""
-Helper Functions for Plotting and Data Management
-
-This module contains utility functions for:
-- Creating plots (average rewards, index convergence)
-- Saving/loading results
-- Logging functionality
-"""
-
 import os
 import json
 import pickle
@@ -16,7 +7,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 
-# Base output directory
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else os.getcwd()
 _OUT_DIR = os.path.join(_BASE_DIR, "Results")
 os.makedirs(_OUT_DIR, exist_ok=True)
